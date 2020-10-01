@@ -1,25 +1,59 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap');
+
 
 body{
     margin: auto;
+    background: #fafafa;
+    font-family: 'Nova Flat', cursive;
 }
 
 .dino{
-    width: 4rem;
-    height: 4rem;
-    background: green;
+    width: 60px;
+    height: 60px;
+    background-image: url(/assets/dino.png);
     position: absolute;
     bottom: 0;
 }
 
 .cactus{
     position: absolute;
-    width: 4rem;
-    height: 4rem;
+    width: 60px;
+    height: 60px;
     bottom: 0;
-    background: red;
+    background-image: url(/assets/cactus.png);
+    margin-left: 20px;
+}
+
+.game-over{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem;
+}
+
+.game-over img{
+    width: 20rem;
+    margin-bottom: 1rem;
+}
+
+.background{
+    position: absolute;
+    bottom: 0;
+    background-image: url(/assets/background.png);
+    background-repeat: repeat-x;
+    animation: slideright 600s infinite linear;
+    width: 100%;
+    height: 200px;
+}
+
+
+@keyframes slideright {
+    from{
+        background-position: 70000%;
+    }
+
+    to{
+        background-position: 0;
+    }
 }

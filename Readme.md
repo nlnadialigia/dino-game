@@ -28,9 +28,9 @@ ___
 
 <br>
 
-<!-- <img src="#" width="1200"> -->
+<img src="assets/game.png" width="1200">
 
-<br>
+<br><br>
 
 ## :information_source: Sobre
 
