@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+}
+
+.dino{
+    width: 4rem;
+    height: 4rem;
+    background: green;
+    position: absolute;
+    bottom: 0;
+}
+
+.cactus{
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    bottom: 0;
+    background: red;
+}

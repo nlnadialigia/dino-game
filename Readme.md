@@ -28,7 +28,7 @@ ___
 
 <br>
 
-<img src="#" width="1200">
+<!-- <img src="#" width="1200"> -->
 
 <br>
 
