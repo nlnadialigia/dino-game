@@ -38,6 +38,8 @@ Desafio proposto no Bootcamp JavaScript Game Developer, da Digital Innovation On
 
 Foram utilizados técnicas de manipulação de eventos, funções e manipulação de elementos HTML usando JavaScript, estilização e animações básicas com CSS.
 
+[Clique aqui para jogar!](https://nl-dino-game.netlify.app)
+
 <br>
 
 ## :rocket: Tecnologias Utilizadas 
